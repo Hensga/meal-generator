@@ -8,6 +8,12 @@ Reset
 }
 
 /************************************
+Globals
+*************************************/
+body {
+  background-color: #eeeeee;
+}
+/************************************
 Container
 *************************************/
 .container {
@@ -21,12 +27,15 @@ Container
 .card {
   width: 500px;
   height: 250px;
-  background-color: red;
+  background-color: #eeeeee;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 25px;
+  box-shadow: -12px -12px 12px rgb(255, 255, 255, 0.9),
+    12px 12px 20px rgb(0, 0, 0, 0.1);
 }
 
 button {
