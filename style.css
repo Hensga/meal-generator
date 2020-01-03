@@ -54,4 +54,5 @@ button {
   box-shadow: inset -15px -15px 15px rgb(255, 255, 255, 0.1),
     inset 10px 10px 9px rgb(0, 0, 0, 0.1);
   border: none;
+  cursor: pointer;
 }
