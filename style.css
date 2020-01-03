@@ -1,4 +1,9 @@
 /************************************
+Fonts
+*************************************/
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap');
+
+/************************************
 Reset
 *************************************/
 * {
@@ -12,6 +17,10 @@ Globals
 *************************************/
 body {
   background-color: #eeeeee;
+}
+
+h2 {
+  font-family: 'Space Mono', monospace;
 }
 /************************************
 Container
@@ -42,4 +51,7 @@ button {
   padding: 10px;
   border-radius: 20px;
   margin: 30px;
+  box-shadow: inset -15px -15px 15px rgb(255, 255, 255, 0.1),
+    inset 10px 10px 9px rgb(0, 0, 0, 0.1);
+  border: none;
 }
