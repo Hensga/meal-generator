@@ -35,7 +35,28 @@ const essenErstellen = meal => {
     }
   }
   const newInnerHTML = `
-  <img src="${meal.strMealThumb}" alt="Meal Image">
+  <div class="container">
+    <div class="row">
+        <div class="col-4">
+            <img src="${meal.strMealThumb}" alt="Meal Image">
+        </div>
+        <div class="col-8">
+            <h2>${meal.strMeal}</h2>
+            <p>${meal.strInstructions}</p>
+        </div>
+    </div>
+    <ul>
+        <div class="col-4">
+            <li>Kategorie: ${meal.strCategory}</li>
+        </div>
+        <div class="col-4">
+            <li>Herkunft: ${meal.strArea}</li>
+        </div>
+        <div class="col-4">
+            <li>Tags: ${meal.strTags}</li>
+        </div>
+    </ul>
+  </div>
   `;
   essen.innerHTML = newInnerHTML;
 };
