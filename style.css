@@ -17,6 +17,12 @@ Globals
 *************************************/
 body {
   background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
 }
 
 h2 {
@@ -27,6 +33,7 @@ Container
 *************************************/
 .container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
@@ -56,3 +63,7 @@ button {
   border: none;
   cursor: pointer;
 }
+
+/************************************
+Essens Container
+*************************************/
