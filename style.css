@@ -93,3 +93,12 @@ Essens Container
 #meal {
   margin: 50px 0;
 }
+
+.v-anleitung {
+  margin-top: 50px;
+}
+
+iframe {
+  min-width: 410px;
+  min-height: 315px;
+}
