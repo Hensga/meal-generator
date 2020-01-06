@@ -54,18 +54,20 @@ const essenErstellen = meal => {
         <div class="col-8">
             <h2>${meal.strMeal}</h2>
             <p>${meal.strInstructions}</p>
+            <h5 class="v-anleitung text-center">Video mit Anleitung</h5>
+                <div class="videoYoutube text-center">${
+                  meal.strYoutube
+                    ? `
+                <iframe src="https://www.youtube.com/embed/${meal.strYoutube.slice(
+                  -11
+                )}"></iframe>
+                `
+                    : ''
+                }</div>
         </div>
         <div class="col-12">
-        <h5 class="v-anleitung">Video mit Anleitung</h5>
-        ${
-          meal.strYoutube
-            ? `
-             <iframe src="https://www.youtube.com/embed/${meal.strYoutube.slice(
-               -11
-             )}"></iframe>       
-        `
-            : ''
-        }
+            
+        </div>
     </div>
     
   </div>
