@@ -2,10 +2,12 @@
 Fonts
 *************************************/
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap')
-  /************************************
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+/************************************
 Reset
-*************************************/ * {
+*************************************/
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
